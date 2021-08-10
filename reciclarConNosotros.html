@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Uchen & display = swap "rel =" stylesheet ">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Rosario: ital, wght @ 1,700 & display = swap "rel =" stylesheet ">
+    <script src="https://kit.fontawesome.com/297e9e379f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body class="bodyfirst">
+    <title>Red Verde</title>
+    <header class="header">
+      <div class="menu">
+        <a href="index.html"><img class="logo" src="imagenes/logo31.png" alt=""></a>
+        <input class="menu__checkbox" type="checkbox">
+        <i class="fas fa-bars"></i>
+        <nav class="navegacion">
+          <ul class="lista">
+            <li class="lista__elemento"><a class="lista__elemento-a" href="productos.html">Productos</a></li>
+            <li class="lista__elemento"><a class="lista__elemento-a" href="quienesSomos.html">Quienes somos</a></li>
+            <li class="lista__elemento"><a class="lista__elemento-a" href="queEsRedVerde.html">Que es Red Verde</a></li>
+            <li class="lista__elemento"><a class="lista__elemento-a" href="reciclarConNosotros.html">Reciclar con nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <h1 class="titulo-reciclarconnosotros">Reciclar con nosotros</h1>
+    <img class="foto-reciclando" src="https://www.rionegro.com.ar/wp-content/uploads/documents/1/0/image_content_9949888_20180729201747.jpg?w=920&h=520&crop=1" alt=""> 
+    <p class="texto3">Si queres formar parte de nuestra red de reciclaje, dejanos tu informacion aca abajo.</p>
+    <form class="contacto">
+        <fieldset>
+        <div class="contacto__nombre">
+        <label for="Nombre y Apellido">Nombre y Apellido</label>
+        <input type="text" id="Nombre-y-apellido" name="Nombre y Apellido">
+        </div>
+        <br>
+        <div class="contacto__telefono">
+        <label for="Telefono">Telefono</label>
+        <input type="text" id="Telefono" name="Telefono">
+    </div>
+    <br>
+    <div class="contacto__zona">
+    <label for="Zona de recoleccion">Zona de recoleccion</label>
+    <select name="Zona" id="Zona">
+        <option value="Zona norte">Zona norte </option>
+        <option value="Zona sur">Zona sur</option>
+        <option value="Zona oeste">Zona oeste</option>
+        <option value="Zona este">Zona este</option>
+    </select>
+    </div>
+    <br>
+    <div class="contacto__sexo">
+    <label for="Sexo">Sexo</label>
+    </div>
+    <div>
+    <label for="Masculino">Masculino</label>
+    <input type="radio" id="Masculino" name="Sexo" value="Masculino">
+    <br>
+    <label for="Femenino">Femenino</label>
+    <input type="radio" id="Femenino" name="Sexo" value="Femenino">
+    </div>
+    <br>
+    <div class="enviar.resetear">
+    <input type="submit" value="Enviar">
+    </div>
+    <input type="reset" value="Borrar">
+    </fieldset>
+    </form>
+    <footer class="footer">
+      <h3 class="footer__1">Direccion</h3>
+      <p class="footer__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
+      <h3 class="footer__1">Horarios de Atencion</h3>
+      <p class="footer__2">Lunes a Viernes de 8 a 17hs</p>
+      <h3 class="footer__1">Telefono</h3>
+      <p class="footer__2">(011)2520-5451</p>
+      <div class="redes">
+        <h3 class="redes__1">Seguinos en las redes</h3>
+        <img class="redes__2" src="imagenes/facebook.jpg" alt="">
+        <img class="redes__2" src="imagenes/instagram.jpg" alt="">
+      </div>
+    </footer>
+  </body>
+</html>
