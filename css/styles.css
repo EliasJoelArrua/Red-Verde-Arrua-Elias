@@ -3,7 +3,6 @@
     padding:0;
     box-sizing: border-box;
 }
-/*NUEVA RAMA PARA GIT*/
 /*INICIO*/
 .bodyfirst {
     font-family: sans-serif;
@@ -40,7 +39,6 @@
     height: 2rem; 
     font-size: 2rem;
     pointer-events: none;
-   
 }
 .navegacion{
     display: none;
