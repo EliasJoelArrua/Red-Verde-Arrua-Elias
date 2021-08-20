@@ -4,40 +4,60 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Uchen & display = swap "rel =" stylesheet ">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Rosario: ital, wght @ 1,700 & display = swap "rel =" stylesheet ">
-    <script src="https://kit.fontawesome.com/297e9e379f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <title>Red Verde</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="bodyfirst">
-    <title>Red Verde</title>
-    <header class="header">
-      <div class="menu">
-        <a href="index.html"><img class="logo" src="imagenes/logo31.png" alt=""></a>
-        <input class="menu__checkbox" type="checkbox">
-        <i class="fas fa-bars"></i>
-        <nav class="navegacion">
-          <ul class="lista">
-            <li class="lista__elemento"><a class="lista__elemento-a" href="productos.html">Productos</a></li>
-            <li class="lista__elemento"><a class="lista__elemento-a" href="quienesSomos.html">Quienes somos</a></li>
-            <li class="lista__elemento"><a class="lista__elemento-a" href="queEsRedVerde.html">Que es Red Verde</a></li>
-            <li class="lista__elemento"><a class="lista__elemento-a" href="reciclarConNosotros.html">Reciclar con nosotros</a></li>
-          </ul>
-        </nav>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><h1 class="navbar-brand">RED VERDE</h1></a>
+        <button class="navbar-toggler" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="queEsRedVerde.html">Que es Red Verde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reciclarConNosotros.html">Reciclar con nosotros</a>
+            </li>
+        </div>
       </div>
-    </header>
-    <div class="que-Es-RedVerde">
-      <h3 class="que-Es-RedVerde__Titulo">DE UNA TAPA DE GASEOSA A UNA CASA</h3>
-      <p class="que-Es-RedVerde__Texto">RED VERDE es un sistema constructivo simple e innovador desarrollado a partir de ladrillos de plástico reciclado.</p>
-      <p class="que-Es-RedVerde__Texto">Para entender el concepto: en Argentina se desechan mas de 12 millones de tapitas de gaseosa por día. Con esa cantidad de plástico, RED VERDE puede fabricar unos 36 mil ladrillos diarios. Algo así como 15 viviendas tipo.</p>
-      <p class="que-Es-RedVerde__Texto">Los ladrillos, de peso reducido y excelente capacidad de aislación térmica, se encastran entre sí como si fueran piezas de Lego. Así de simple.</p>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <h3 class="que-Es-RedVerde__Titulo">DE UNA TAPA DE GASEOSA A UNA CASA</h3>
+        </div>
+        <div class="col">
+          <p class="que-Es-RedVerde__Texto">RED VERDE es un sistema constructivo simple e innovador desarrollado a partir de ladrillos de plástico reciclado.</p>
+          <p class="que-Es-RedVerde__Texto">Para entender el concepto: en Argentina se desechan mas de 12 millones de tapitas de gaseosa por día. Con esa cantidad de plástico, RED VERDE puede fabricar unos 36 mil ladrillos diarios. Algo así como 15 viviendas tipo.</p>
+          <p class="que-Es-RedVerde__Texto">Los ladrillos, de peso reducido y excelente capacidad de aislación térmica, se encastran entre sí como si fueran piezas de Lego. Así de simple.</p>
+        </div>
+      </div>
     </div>
-    <a class="que-Es-RedVerde__link" href="productos.html"><h3 class="atajo-Productos">VER PRODUCTOS</h3></a>
-    <footer class="footer">
+    <div class="container">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <div type="button" class="btn btn-warning btn-md">
+          <a href="productos.html">PRODUCTOS</a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer1">
       <h3 class="footer__1">Direccion</h3>
       <p class="footer__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
       <h3 class="footer__1">Horarios de Atencion</h3>

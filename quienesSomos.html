@@ -4,50 +4,77 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Uchen & display = swap "rel =" stylesheet ">
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Rosario: ital, wght @ 1,700 & display = swap "rel =" stylesheet ">
-    <script src="https://kit.fontawesome.com/297e9e379f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <title>Red Verde</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body class="bodyfirst">
-    <title>Red Verde</title>
-    <header class="header">
-      <div class="menu">
-        <a href="index.html"><img class="logo" src="imagenes/logo31.png" alt=""></a>
-        <input class="menu__checkbox" type="checkbox">
-        <i class="fas fa-bars"></i>
-        <nav class="navegacion">
-          <ul class="lista">
-            <li class="lista__elemento"><a class="lista__elemento-a" href="productos.html">Productos</a></li>
-            <li class="lista__elemento"><a class="lista__elemento-a" href="quienesSomos.html">Quienes somos</a></li>
-            <li class class="lista__elemento"><a class="lista__elemento-a" href="queEsRedVerde.html">Que es Red Verde</a></li>
-            <li class="lista__elemento"><a class="lista__elemento-a" href="reciclarConNosotros.html">Reciclar con nosotros</a></li>
-          </ul>
-        </nav>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><h1 class="navbar-brand">RED VERDE</h1></a>
+        <button class="navbar-toggler" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="quienesSomos.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="queEsRedVerde.html">Que es Red Verde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reciclarConNosotros.html">Reciclar con nosotros</a>
+            </li>
+        </div>
       </div>
-    </header>
-    <div class="quienessomos">
+    </nav>
+    <div class="container">
       <h1 class="titulo-quienessomos">RED VERDE</h1>
       <p class="texto1">Somos una empresa que cuenta con mas de 10 años de experiencia y presencia en el mercado de recupero, reciclado, fabricacion y comercializacion de materiales de plastico.</p>
       <p class="texto1__a">Como equipo, nos apasiona ofrecer productos y soluciones concretas, prácticas y aplicables; y tenemos como visión construir un futuro más sustentable promoviendo la implementación de economías circulares y aprovechando al máximo los recursos disponibles.</p>
       <p class="texto1__b">Consideramos que Red verde es un sistema constructivo de triple impacto, ya que ofrece UNA solución a TRES grandes problemáticas contemporáneas:</p>
     </div>
-    <div class="impacto">
-      <h3 class="impacto__titulo">Ambiental</h3>
-      <img class="impacto__icono" src="imagenes/ico-ambiental.png" alt="">
-      <p class="impacto__texto"> Gestion de residuos:En nuestro país, se desechan por año más de 2 millones de toneladas de residuos plásticos.</p>
-      <h3 class="impacto__titulo">Social</h3>
-      <img class="impacto__icono" src="imagenes/ico-social.png" alt="">
-      <p class="impacto__texto">Déficit habitacional: El número estimado es 3.5 millones de viviendas.</p>
-      <h3 class="impacto__titulo">Economica</h3>
-      <img class="impacto__icono" src="imagenes/ico-economica.png" alt="">
-      <p class="impacto__texto">Construcción ineficiente: Se pueden generar ahorros y eficiencias de obra de hasta un 30% vs. sistemas tradicionales.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col col-md">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/ico-ambiental.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AMBIENTAL</h5>
+              <p class="card-text">Gestion de residuos:En nuestro país, se desechan por año más de 2 millones de toneladas de residuos plásticos.</p></p>
+            </div>
+          </div>
+        </div>
+      <div class="col col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/ico-social.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SOCIAL</h5>
+            <p class="card-text">Déficit habitacional: El número estimado es 3.5 millones de viviendas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/ico-economica.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ECONOMICA</h5>
+            <p class="card-text">Construcción ineficiente: Se pueden generar ahorros y eficiencias de obra de hasta un 30% vs. sistemas tradicionales.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer class="footer">
+    <footer class="footer1">
       <h3 class="footer__1">Direccion</h3>
       <p class="footer__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
       <h3 class="footer__1">Horarios de Atencion</h3>

@@ -4,106 +4,6 @@
     box-sizing: border-box;
 }
 /*INICIO*/
-.bodyfirst {
-    font-family: sans-serif;
-}
-.menu {
-    color: white;
-    position: relative; 
-    background:linear-gradient(#89d631, white);
-    height: 48px;
-    border-bottom: solid 0.3rem #89d631;
-    border-top: solid 0.3rem #89d631;
-}
-.logo{
-    width: 12rem;
-    margin: 0.1rem;
-    border: black solid 0.1rem;
-}
-.menu__checkbox{
-    position: absolute;  
-    margin: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    width: 48px;
-    height: 48px;  
-    opacity: 0;
-}
-.fa-bars{
-    color: #85da25;
-    position: absolute;  
-    margin: 0.4rem;
-    right: 0;
-    width: 2rem;
-    height: 2rem; 
-    font-size: 2rem;
-    pointer-events: none;
-}
-.navegacion{
-    display: none;
-}
-.lista{
-    overflow: auto;
-}
-.lista__elemento-a{
-    text-align:center;
-    float: right;
-    font-size: 1.2rem;
-    color: black;
-    text-decoration: none;
-    padding: 1rem;
-    border-bottom: 0.2rem solid #89d631;
-    width: 15rem;
-    background: #fbfbfb;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.menu__checkbox:checked ~ .navegacion {
-    display: block;
-}
-.eslogan{
-    overflow-x: auto;
-    width: auto;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-image: url("https://cdn.bioguia.com/embed/1487d201d5e99a247d5e566c178df21524362556/Estos_son_los_10_principios_basicos_de_la_arquitectura_ecologica");
-}
-.eslogan__1{
-    text-shadow:black 0.2rem 0.2rem;
-    text-align: center;
-    color: white;
-    font-family:'Rosario', sans-serif;
-    font-size: 3rem;
-}
-.eslogan__2{
-    text-shadow: black 0.2rem 0.2rem;
-    text-align: center;
-    color: white;
-    font-family:'Rosario', sans-serif;
-    font-size: 2rem;
-}
-.beneficios__1{
-    width: 10rem;
-    margin-left: 6rem;
-    margin-bottom: 1rem;
-}
-.beneficios__2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 6rem;
-    width: 10rem;
-    text-align: center;
-}
-.beneficios__3{
-    margin-left: 6rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 10rem;
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 .atajo-RedVerde{
     display: flex;
     flex-direction: column;
@@ -118,20 +18,10 @@
     margin-top: 1rem;
     text-align: center;
 }
-.atajo-RedVerde__3{
-    width: 12rem;
-    height: 2rem;
-    color: white;
-    background-color: #89d631;
-    text-decoration: none;
-    text-align: center;
-    padding: 0.5rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
-}
-.footer{
+.footer1{
     margin-top: 3rem;
-    background-color: #89d631;
+    background-color: #ffc107;
+    width: auto;
 }
 .footer__1{
     text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -163,8 +53,7 @@
 /*PRODUCTOS*/
 .titulo-productos{
     margin-top: 0.5rem;
-    background-color: #89d631;
-    width: 100%;
+    background-color: #ffc107;
     height: 5rem;
 }
 .titulo-productos__1{
@@ -173,31 +62,10 @@
     text-shadow: black 0.1rem 0.1rem;
     padding: 1rem;
 }
-.ladrillos__img{
-    width: 15rem;
-    margin-left: 3.5rem;
-    margin-top: 2rem;
-}
-.ladrillos__titulo{
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.6rem;
-}
-.ladrillos__texto{
-    margin-left: 3rem;
-    margin-top: 1rem;
-    text-align: left;
-    width: 12rem;
-}
-.ladrillos__texto-a{
-    margin-left: 3rem;
-    margin-top: 1rem;
-    text-align: left;
-    width: 15rem;
-}
-.footer{
+.footer1{
     margin-top: 3rem;
-    background-color: #89d631;
+    background-color: #ffc107;
+    width: 100%;
 }
 .footer__1{
     text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -262,31 +130,37 @@
     padding-top: 1rem;
     margin: 1rem;
 }
-.impacto{
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
+.footer1{
+    margin-top: 3rem;
+    background-color: #ffc107;
+    width: 100%;
 }
-.impacto__titulo{
-    text-align: center;
+.footer__1{
+    text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
+    color: rgb(253, 252, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+}
+.footer__2{
+    text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
+    color: rgb(253, 253, 253);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+}
+.redes{
     margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1rem;
 }
-.impacto__icono{
-    margin: 1rem 5rem 1rem 5rem;
-    width: 10rem;
+.redes__1{
+    color:white;
+    text-shadow: black 0.1rem 0.1rem;
+    margin-bottom: 0.5rem;
 }
-.impacto__texto{
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.6rem;
-    height: 10rem;
-    width: 20rem;
-    margin: 1rem;
+.redes__2{
+    width: 2rem;
 }
-
 /*QUE ES RED VERDE*/
 
 .que-Es-RedVerde{
@@ -318,7 +192,6 @@
 
 .titulo-reciclarconnosotros{
     color: white;
-    border: #89d631 solid 0.1rem;
     width: auto;
     height: 10rem;
     padding: 1rem;
@@ -327,7 +200,7 @@
     font-size: 3rem;
     margin-top: 0.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background:linear-gradient(#89d631,white);
+    background-color:#ffc107;
 }
 .foto-reciclando{
     width: 20rem;
@@ -349,113 +222,6 @@
 /*MEDIA QUERIES*/
 @media (min-width: 768px){
     /*INICIO*/
-    .bodyfirst {
-        font-family: sans-serif;
-    }
-    .menu {
-        color: white;
-        position: relative; 
-        background:linear-gradient(#89d631, white);
-        height: 7rem;
-        border-bottom: solid 0.3rem #89d631;
-        border-top: solid 0.3rem #89d631;
-    }
-    .logo{
-        width: 20rem;
-        height: 6rem;
-        margin: 0.1rem;
-        border: black solid 0.1rem;
-    }
-    .menu__checkbox{
-        position: absolute;  
-        margin: 0;
-        padding: 0;
-        right: 0;
-        top: 0;
-        width: 48px;
-        height: 48px;  
-        opacity: 0;
-    }
-    .fa-bars{
-        color: #85da25;
-        position: absolute;  
-        margin: 2rem;
-        right: 0;
-        width: 2rem;
-        height: 2rem; 
-        font-size: 2rem;
-        pointer-events: none;
-    }
-    .navegacion{
-        display: none;
-    }
-    .lista{
-        display: flex;
-        flex-direction: column;
-    }
-    .lista__elemento-a{
-        display: flex;
-        flex-direction: column;
-        text-align:center;
-        float: right;
-        font-size: 1.6rem;
-        color: black;
-        text-decoration: none;
-        padding: 1.5rem;
-        border-bottom: 0.2rem solid #89d631;
-        width: 15rem;
-        background: #fbfbfb;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .menu__checkbox:checked ~ .navegacion {
-        display: block
-    }
-    .eslogan{
-        width: auto;
-        height: 20rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url("https://resizer.glanacion.com/resizer/uqvSgIc6GTP7-qOiM80imLAoHhc=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/OVPJQKE7DFC3DPFWAUMGCEPA5M.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .eslogan__1{
-        text-shadow:black 0.2rem 0.2rem;
-        text-align: center;
-        color: white;
-        font-family:'Rosario', sans-serif;
-        font-size: 4rem;
-    }
-    .eslogan__2{
-        text-shadow: black 0.2rem 0.2rem;
-        text-align: center;
-        color: white;
-        font-family:'Rosario', sans-serif;
-        font-size: 2rem;
-    }
-    .beneficios{
-        display: flex;
-        flex-direction: column;
-        margin-left: 13rem;
-        margin-top: 2rem;
-    }
-    .beneficios__1{
-        width: 15rem;
-    }
-    .beneficios__2{
-        margin-left: 8rem;
-        font-size: 2rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        text-align: center;
-    }
-    .beneficios__3{
-        margin-left: 8.5rem;
-        text-align: center;
-        font-size: 1.6rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
     .atajo-RedVerde{
         display: flex;
         flex-direction: column;
@@ -472,21 +238,10 @@
         text-align: center;
         font-size: 2rem;
     }
-    .atajo-RedVerde__3{
-        width: 20rem;
-        height: 4rem;
-        color: white;
-        background-color: #89d631;
-        text-decoration: none;
-        text-align: center;
-        padding: 1.1rem;
-        margin-left: 17rem;
-        margin-top: 2rem;
-        font-size: 1.6rem;
-    }
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -517,12 +272,10 @@
     .redes__2{
         width: 2rem;
     }
-
     /*PRODUCTOS*/
-
     .titulo-productos{
         margin-top: 0.5rem;
-        background-color: #89d631;
+        background-color: #ffc107;
         width: 100%;
         height: 8rem;
         padding: 1.5rem;
@@ -533,37 +286,10 @@
         color: white;
         text-shadow: black 0.1rem 0.2rem;
     }
-    .ladrillos{
-        display: flex;
-        flex-direction: column;
-        margin-left: 13rem;
-    }
-    .ladrillos__img{
-        width: 20rem;
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .ladrillos__titulo{
-        margin-left: 2rem;
-        text-align: left;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6rem;
-    }
-    .ladrillos__texto{
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        text-align: left;
-        width: 12rem;
-    }
-    .ladrillos__texto-a{
-        font-size: 1rem;
-        margin-top: 1rem;
-        text-align: left;
-        width: 15rem;
-    }
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -632,24 +358,10 @@
         padding-top: 1rem;
         margin: 1rem;
     }
-    .impacto__titulo{
-        font-size: 2.5rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .impacto__icono{
-        margin-left: 15rem;
-        width: 15rem;
-    }
-    .impacto__texto{
-        margin-left: 14rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6rem;
-        height: 10rem;
-        width: 17rem;
-    }
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -698,21 +410,11 @@
         width: 25rem;
         margin-left: 9rem;
     }
-    .atajo-Productos{
-        border: #89d631 solid 0.1rem;
-        color: white;
-        text-shadow: black 0.1rem 0.2rem;
-        text-align: center;
-        font-size: 1.4rem;
-        height: 4rem;
-        width: 10rem;
-        padding: 0.2rem;
-        background: linear-gradient(#89d631,white);
-        margin: 4rem 17.5rem 0rem 17.5rem;
     }
-    .footer{
+    .footer1{
         margin-top: 1rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -747,7 +449,6 @@
 
     .titulo-reciclarconnosotros{
         color: white;
-        border: #89d631 solid 0.1rem;
         width: auto;
         height: 10rem;
         padding: 1rem;
@@ -755,28 +456,12 @@
         text-shadow: black 0.1rem 0.2rem;
         font-size: 3rem;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background:linear-gradient(#89d631,white);
+        background-color:#ffc107;
     }
-    .foto-reciclando{
-        margin-left: 4rem;
-        width: 40rem;
-        height: 20rem;
-    }
-    .contacto{
-        margin: 1.6rem;
-    }
-    .texto3{
-        margin: 1rem;
-        text-align: left;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6rem;
-        line-height: 1.6rem;
-        margin: 1.6rem;
-    }
-    
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -807,131 +492,8 @@
     .redes__2{
         width: 2rem;
     }
-}
-
 /*DESKTOP*/
 @media ( min-width:1200px){
-
-    .bodyfirst {
-        font-family: sans-serif;
-    }
-    .menu {
-        color: white;
-        position: relative; 
-        background:linear-gradient(#89d631, white);
-        height: 7rem;
-        border-bottom: solid 0.3rem #89d631;
-        border-top: solid 0.3rem #89d631;
-    }
-    .logo{
-        width: 15rem;
-        height: 4rem;
-        margin: 1rem;
-        border: black solid 0.1rem;
-    }
-    .menu__checkbox{
-        position: absolute;  
-        margin-right: 2.5rem;
-        margin-top: 1rem;
-        padding: 0;
-        right: 1;
-        top: 0;
-        width: 48px;
-        height: 48px;  
-        opacity: 0;
-    }
-    .fa-bars{
-        color: #85da25;
-        margin: 2rem;
-        right: 0;
-        width: 3rem;
-        height: 2rem; 
-        font-size: 2rem;
-        top: 0;
-        
-    }
-    .menu:hover .fa-bars{
-        transform: scale(1.5, 1.6);
-    }
-    .navegacion{
-        display: none;
-    }
-    .lista{
-        overflow: auto;
-    }
-    .lista__elemento-a{
-        text-align:center;
-        float: right;
-        font-size: 1.5rem;
-        transition: font-size 1s;
-        color: black;
-        text-decoration: none;
-        padding: 1rem;
-        border-bottom: 0.2rem solid #89d631;
-        width: 20rem;
-        background: #fbfbfb;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .lista__elemento-a:hover{
-        font-size: 1.8rem;
-    }
-    .menu__checkbox:checked ~ .navegacion {
-        display: block;
-    }
-    .eslogan{
-        overflow-x: auto;
-        width: auto;
-        height: 30rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-image: url("https://resizer.glanacion.com/resizer/uqvSgIc6GTP7-qOiM80imLAoHhc=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/OVPJQKE7DFC3DPFWAUMGCEPA5M.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    .eslogan__1{
-        text-shadow:black 0.2rem 0.2rem;
-        text-align: center;
-        color: white;
-        font-family:'Rosario', sans-serif;
-        font-size: 5rem;
-        transition: color 1s;
-    }
-    .eslogan:hover .eslogan__1{
-        color: #89d631;
-    }
-    .eslogan__2{
-        text-shadow: black 0.2rem 0.2rem;
-        text-align: center;
-        color: white;
-        font-family:'Rosario', sans-serif;
-        font-size: 3rem;
-    }
-    .beneficios{
-        display: flex;
-        flex-direction: column;
-    }
-    .beneficios__1{
-        width: 15rem;
-        margin-bottom: 1rem;
-        margin-left: 20rem;
-    }
-    .beneficios__2{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 21rem;
-        width: 12rem;
-        text-align: center;
-        font-size: 2.5rem;
-    }
-    .beneficios__3{
-        margin-left: 22rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        width: 12rem;
-        text-align: center;
-        font-size: 1.6rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
     .atajo-RedVerde{
         display: flex;
         flex-direction: column;
@@ -946,27 +508,10 @@
         margin-top: 1rem;
         text-align: center;
     }
-    .atajo-RedVerde__3{
-        width: 15rem;
-        height: 4rem;
-        color: white;
-        background-color: #89d631;
-        text-align: center;
-        padding: 0.5rem;
-        margin-left: 34rem;
-        margin-top: 2rem;
-        transition: background-color 1s;
-    }
-    .link:hover .atajo-RedVerde__3{
-        transform: translate(0.5rem, 0.5rem);
-        background: linear-gradient(#89d631,rgba(226, 226, 60, 0.801));
-    }
-    .atajo-RedVerde__link{
-        text-decoration: none;
-    }
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -994,14 +539,9 @@
     .redes__2{
         width: 2rem;
     }
-    
     /*PRODUCTOS*/
     .titulo-productos{
-        border: #89d631 solid 0.1rem;
-        margin-top: 0.5rem;
-        background: linear-gradient(#89d631, white);
-        width: 100%;
-        height: 10rem;
+        background-color: #ffc107;
     }
     .titulo-productos__1{
         text-align: center;
@@ -1010,33 +550,10 @@
         padding: 1rem;
         font-size: 4rem;
     }
-    .ladrillos{
-        display: flex;
-        flex-direction: column;
-        margin-left: 29rem;
-    }
-    .ladrillos__img{
-        width: 22rem;
-        margin-top: 2rem;
-    }
-    .ladrillos__titulo{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 2rem;
-    }
-    .ladrillos__texto{
-        font-size: 1.2rem;
-        margin-top: 1rem;
-        text-align: left;
-        width: 12rem;
-    }
-    .ladrillos__texto-a{
-        margin-top: 1rem;
-        text-align: left;
-        width: 15rem;
-    }
-    .footer{
+    .footer1{
         margin-top: 3rem;
-        background-color: #89d631;
+        background-color: #ffc107;
+        width: 100%;
     }
     .footer__1{
         text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
@@ -1093,38 +610,37 @@
         padding-top: 1rem;
         margin: 2rem;
     }
-    .texto1__b{
-        text-align: center;
+    .footer1{
+        margin-top: 3rem;
+        background-color: #ffc107;
+        width: 100%;
+    }
+    .footer__1{
+        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
+        color: rgb(253, 252, 252);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
     }
-    .impacto{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-    }
-    .impacto__titulo{
-        margin-left: -4rem;
-        font-size: 3rem;
+    .footer__2{
+        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
+        color: rgb(253, 253, 253);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
     }
-    .impacto__icono{
-        width: 17rem;
-        margin-left: 31rem;
+    .redes{
+        margin-top: 2rem;
+        margin-left: 1rem;
     }
-    .impacto__texto{
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.8rem;
-        height: 10rem;
-        width: 20rem;
-        margin-left: 29rem;
-        margin-bottom: 4rem;
+    .redes__1{
+        color:white;
+        text-shadow: black 0.1rem 0.1rem;
+        margin-bottom: 0.5rem;
     }
-    
+    .redes__2{
+        width: 2rem;
+    }
     /*QUE ES RED VERDE*/
     
     .que-Es-RedVerde__Titulo{
@@ -1141,7 +657,6 @@
         width: 40rem;
     }
     .atajo-Productos{
-        border: #89d631 solid 0.1rem;
         color: white;
         text-shadow: black 0.1rem 0.2rem;
         text-align: center;
@@ -1149,22 +664,44 @@
         height: 6rem;
         width: 15rem;
         padding: 0.8rem;
-        background: linear-gradient(#84e912,white);
         margin: 3rem 35rem 3rem 35rem;
         transition: background 2s;
     }
-    .atajo-Productos:hover{
-        background: linear-gradient(#89d631,rgba(226, 226, 60, 0.801));
-        transform: scale(1,1.2);
+    .footer1{
+        margin-top: 3rem;
+        background-color: #ffc107;
+        width: 100%;
     }
-    .que-Es-RedVerde__link{
-        text-decoration: none;
+    .footer__1{
+        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
+        color: rgb(253, 252, 252);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .footer__2{
+        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
+        color: rgb(253, 253, 253);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .redes{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .redes__1{
+        color:white;
+        text-shadow: black 0.1rem 0.1rem;
+        margin-bottom: 0.5rem;
+    }
+    .redes__2{
+        width: 2rem;
     }
     /*RECICLAR CON NOSOTROS*/
     
     .titulo-reciclarconnosotros{
         color: white;
-        border: #89d631 solid 0.1rem;
         width: auto;
         height: 12rem;
         padding: 2rem;
@@ -1173,23 +710,43 @@
         font-size: 4rem;
         margin-top: 0.5rem;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background:linear-gradient(#89d631,white);
+        background-color:#ffc107;
     }
     .foto-reciclando{
         width: 60rem;
         height: 30rem;
         margin-left: 12rem;
     }
-    .contacto{
-        margin: 1.6rem;
+    .footer1{
+        margin-top: 3rem;
+        background-color: #ffc107;
+        width: 100%;
     }
-    .texto3{
-        margin: 1rem;
-        text-align: left;
+    .footer__1{
+        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
+        color: rgb(253, 252, 252);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6rem;
-        line-height: 1.6rem;
-        margin: 1.6rem;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .footer__2{
+        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
+        color: rgb(253, 253, 253);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 1rem;
+        margin-bottom: 0.1rem;
+    }
+    .redes{
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .redes__1{
+        color:white;
+        text-shadow: black 0.1rem 0.1rem;
+        margin-bottom: 0.5rem;
+    }
+    .redes__2{
+        width: 2rem;
     }
 
 }
