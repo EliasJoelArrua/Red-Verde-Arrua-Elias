@@ -35,71 +35,68 @@
             <li class="nav-item">
               <a class="nav-link active" href="reciclarConNosotros.html">Reciclar con nosotros</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
         </div>
       </div>
     </nav>
     <h1 class="titulo-reciclarconnosotros">Reciclar con nosotros</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 30rem;">
-            <img src="https://www.rionegro.com.ar/wp-content/uploads/documents/1/0/image_content_9949888_20180729201747.jpg?w=920&h=520&crop=1" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Si queres formar parte de nuestra red de reciclaje, dejanos tu informacion aca abajo.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="section-reciclar">
+      <img class="section-reciclar__img" src="https://www.rionegro.com.ar/wp-content/uploads/documents/1/0/image_content_9949888_20180729201747.jpg?w=920&h=520&crop=1" alt="...">
+      <p class="section-reciclar__text">Si queres formar parte de nuestra red de reciclaje, dejanos tu informacion aca abajo.</p>
+    </section>
     <form class="contacto">
         <fieldset>
-        <div class="contacto__nombre">
-        <label for="Nombre y Apellido">Nombre y Apellido</label>
-        <input type="text" id="Nombre-y-apellido" name="Nombre y Apellido">
+          <div class="contacto__nombre">
+            <label for="Nombre y Apellido">Nombre y Apellido</label>
+            <input type="text" id="Nombre-y-apellido" name="Nombre y Apellido">
+          </div>
+          <br>
+          <div class="contacto__telefono">
+            <label for="Telefono">Telefono</label>
+            <input type="text" id="Telefono" name="Telefono">
+          </div>
+          <br>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Zona de Recoleccion</option>
+            <option value="1">Zona Norte</option>
+            <option value="2">Zona Sur</option>
+            <option value="3">Zona Oeste</option>
+            <option value="4">Zona Este</option>
+          </select>
+          <br>
+          <div class="contacto__sexo">
+            <label for="Sexo">Sexo</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Hombre</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Mujer</label>
+          </div>
+          <br>
+          <div class="col-12">
+            <button class="btn btn-warning" type="submit">ENVIAR</button>
+          </div>
+        </fieldset>
+      </form>
+      <footer class="footer">
+        <div class="footer__Box">
+          <h3 class="footer__Box__1">Direccion</h3>
+          <p class="footer__Box__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
+          <h3 class="footer__Box__1">Horarios de Atencion</h3>
+          <p class="footer__Box__2">Lunes a Viernes de 8 a 17hs</p>
+          <h3 class="footer__Box__1">Telefono</h3>
+          <p class="footer__Box__2">(011)2520-5451</p>
         </div>
-        <br>
-        <div class="contacto__telefono">
-        <label for="Telefono">Telefono</label>
-        <input type="text" id="Telefono" name="Telefono">
-    </div>
-    <br>
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Zona de Recoleccion</option>
-      <option value="1">Zona Norte</option>
-      <option value="2">Zona Sur</option>
-      <option value="3">Zona Oeste</option>
-      <option value="4">Zona Este</option>
-    </select>
-    <br>
-    <div class="contacto__sexo">
-    <label for="Sexo">Sexo</label>
-    </div>
-    <div class="form-check form-check-inline">
-      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-      <label class="form-check-label" for="inlineCheckbox1">Hombre</label>
-    </div>
-    <div class="form-check form-check-inline">
-      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-      <label class="form-check-label" for="inlineCheckbox2">Mujer</label>
-    </div>
-    <br>
-    <div class="col-12">
-      <button class="btn btn-warning" type="submit">ENVIAR</button>
-    </div>
-    </fieldset>
-    </form>
-    <footer class="footer1">
-      <h3 class="footer__1">Direccion</h3>
-      <p class="footer__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
-      <h3 class="footer__1">Horarios de Atencion</h3>
-      <p class="footer__2">Lunes a Viernes de 8 a 17hs</p>
-      <h3 class="footer__1">Telefono</h3>
-      <p class="footer__2">(011)2520-5451</p>
-      <div class="redes">
-        <h3 class="redes__1">Seguinos en las redes</h3>
-        <img class="redes__2" src="imagenes/facebook.jpg" alt="">
-        <img class="redes__2" src="imagenes/instagram.jpg" alt="">
-      </div>
-    </footer>
+        <div class="footer__Redes">
+          <h3 class="footer__Redes__1">Seguinos en las redes</h3>
+          <img class="Redes__2" src="imagenes/facebook.jpg" alt="">
+          <img class="Redes__2" src="imagenes/instagram.jpg" alt="">
+        </div>
+      </footer>
   </body>
 </html>
