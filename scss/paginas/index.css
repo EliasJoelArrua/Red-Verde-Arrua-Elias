@@ -1,0 +1,134 @@
+/*INICIO*/
+.section-beneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-beneficios .section-beneficios__box {
+  width: 13rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__img {
+  width: 12rem;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__text {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-beneficios2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-beneficios2 .section-beneficios2__box {
+  width: 13rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__img {
+  width: 12rem;
+}
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__text {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.atajo-RedVerde {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.atajo-RedVerde .atajo-RedVerde__1 {
+  margin-top: 4rem;
+  font-size: 1rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+}
+
+.atajo-RedVerde .atajo-RedVerde__2 {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-size: 1.6rem;
+}
+
+.atajo-RedVerde .box-Boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.atajo-RedVerde .box-Boton .boton-Link {
+  width: 15rem;
+  margin: 2rem;
+  text-align: center;
+  background-color: #ffc107;
+  text-decoration: none;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  -webkit-transition: color 1s background-color 1s;
+  transition: color 1s background-color 1s;
+}
+
+.atajo-RedVerde .box-Boton .boton-Link .boton-Link:hover {
+  color: white;
+  background-color: #ffc107cc;
+}
+/*# sourceMappingURL=index.css.map */

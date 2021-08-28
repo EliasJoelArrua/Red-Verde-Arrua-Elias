@@ -1,0 +1,91 @@
+/*QUE ES RED VERDE*/
+
+.section-Texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .section-Texto__titulo{
+        text-align: center;
+    }
+    .section-Texto__texto{
+        text-align: center;
+        margin: 1rem;
+    }
+}
+.queEsRV-Title{
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.section-QueEsRV{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .section-QueEsRV__box{
+        align-self: center;
+        width: 20rem;
+        margin: 1rem;
+        .section-QueEsRV__box__img{
+            width: 20rem;
+        }
+        .section-QueEsRV__box__title{
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            width: 20rem;
+            text-align: center;
+        }
+        .section-QueEsRV__box__text{
+            width: 20rem;
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    }
+}
+.section-QueEsRV2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .section-QueEsRV2__box{
+        align-self: center;
+        width: 20rem;
+        margin: 1rem;
+        .section-QueEsRV2__box__img{
+            width: 20rem;
+        }
+        .section-QueEsRV2__box__title{
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            width: 20rem;
+            text-align: center;
+        }
+        .section-QueEsRV2__box__text{
+            width: 20rem;
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    }
+}
+.section-QueEsRV3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .section-QueEsRV3__box{
+        align-self: center;
+        width: 20rem;
+        margin: 1rem;
+        .section-QueEsRV3__box__img{
+            width: 20rem;
+        }
+        .section-QueEsRV3__box__title{
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            width: 20rem;
+            text-align: center;
+        }
+        .section-QueEsRV3__box__text{
+            width: 20rem;
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    }
+}
+.link-productos{
+    text-decoration: none;
+    color: white;
+}

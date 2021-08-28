@@ -1,971 +1,1095 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-/*INICIO*/
-.section-beneficios{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.section-beneficios__box{
-    width: 13rem;
-    align-self: center;
-    justify-content: center;
-}
-.section-beneficios__box__img{
-    width: 12rem;
-    transition: width 1s;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.section-beneficios__box__title{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+/*INICIO*/
+.section-beneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.section-beneficios__box__text{
-    text-align: center;
-    font-family:'IBM Plex Sans Thai', sans-serif;
+
+.section-beneficios .section-beneficios__box {
+  width: 13rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.section-beneficios2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__img {
+  width: 12rem;
+  -webkit-transition: width 1s;
+  transition: width 1s;
 }
-.section-beneficios2__box{
-    width: 13rem;
-    align-self: center;
-    justify-content: center;
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.section-beneficios2__box__img{
-    width: 12rem;
+
+.section-beneficios .section-beneficios__box .section-beneficios__box__text {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.section-beneficios2__box__title{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.section-beneficios2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.section-beneficios2__box__text{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.section-beneficios2 .section-beneficios2__box {
+  width: 13rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.atajo-RedVerde{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__img {
+  width: 12rem;
 }
-.atajo-RedVerde__1{
-    margin-top: 4rem;
-    font-size: 1rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    text-align: center;
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.atajo-RedVerde__2{
-    margin-top: 1rem;
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.6rem;
+
+.section-beneficios2 .section-beneficios2__box .section-beneficios2__box__text {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.box-Boton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+.atajo-RedVerde {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.boton-Link{
-    width: 15rem;
-    margin: 2rem;
-    text-align: center;
-    background-color: #ffc107;
-    text-decoration: none;
-    color: white;
-    text-shadow: black 0.1rem 0.1rem;
-    transition: color 1s background-color 1s ;
+
+.atajo-RedVerde .atajo-RedVerde__1 {
+  margin-top: 4rem;
+  font-size: 1rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
 }
-.boton-Link:hover{
-    color: white;
-    background-color: #ffc107cc;
+
+.atajo-RedVerde .atajo-RedVerde__2 {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-size: 1.6rem;
 }
-.footer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-    background-color: #ffc107;
+
+.atajo-RedVerde .box-Boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.footer__Box{
-    margin: 1rem;
+
+.atajo-RedVerde .box-Boton .boton-Link {
+  width: 15rem;
+  margin: 2rem;
+  text-align: center;
+  background-color: #ffc107;
+  text-decoration: none;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  -webkit-transition: color 1s background-color 1s;
+  transition: color 1s background-color 1s;
 }
-.footer__Box__1{
-    margin-bottom: 0.2rem;
-    text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-    color: rgb(253, 252, 252);
-    font-family:'IBM Plex Sans Thai', sans-serif;
+
+.atajo-RedVerde .box-Boton .boton-Link .boton-Link:hover {
+  color: white;
+  background-color: #ffc107cc;
 }
-.footer__Box__2{
-    margin-bottom: 0.2rem;
-    text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-    color: rgb(253, 253, 253);
-    font-family:'IBM Plex Sans Thai', sans-serif;
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1rem;
+  background-color: #ffc107;
 }
-.footer__Redes{
-    margin: 1rem;
+
+.footer .footer__Box {
+  margin: 1rem;
 }
-.footer__Redes__1{
-    color:white;
-    text-shadow: black 0.1rem 0.1rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.footer .footer__Box .footer__Box__1 {
+  margin-bottom: 0.2rem;
+  text-shadow: black 0.1rem 0.1rem;
+  color: #fdfcfc;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.Redes__2{
-    width: 2rem;
+
+.footer .footer__Box .footer__Box__2 {
+  margin-bottom: 0.2rem;
+  text-shadow: #050505 0.1rem 0.1rem;
+  color: #fdfdfd;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.footer .footer__Redes {
+  margin: 1rem;
+}
+
+.footer .footer__Redes .footer__Redes__1 {
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.footer .footer__Redes .Redes__2 {
+  width: 2rem;
 }
 
 /*PRODUCTOS*/
-.titulo-productos{
-    margin-top: 0.5rem;
-    background-color: #ffc107;
-    height: 5rem;
+.titulo-productos {
+  margin-top: 0.5rem;
+  background-color: #ffc107;
+  height: 5rem;
 }
-.titulo-productos__1{
-    text-align: center;
-    color: white;
-    text-shadow: black 0.1rem 0.1rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    padding: 1rem;
+
+.titulo-productos .titulo-productos__1 {
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  padding: 1rem;
 }
-.section-ladrillos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: auto;
+
+.section-ladrillos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: auto;
 }
-.section-ladrillos__box{
-    width: 16rem;
-    align-self: center;
-    justify-content: center;
+
+.section-ladrillos .section-ladrillos__box {
+  width: 16rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.section-ladrillos__box__img{
-    width: 15rem;
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__img {
+  width: 15rem;
 }
-.section-ladrillos__box__title{
-    text-align: center;
-    width: 15rem;
-    font-size: 1.2rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__title {
+  text-align: center;
+  width: 15rem;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.section-ladrillos__box__text{
-    font-size: 1.2rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    text-align: center;
-    width: 15rem;
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__text {
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+  width: 15rem;
 }
-.section-ladrillos2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: auto;
+
+.section-ladrillos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: auto;
 }
-.section-ladrillos2__box{
-    width: 16rem;
-    align-self: center;
+
+.section-ladrillos2 .section-ladrillos2__box {
+  width: 16rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
-.section-ladrillos2__box__img{
-    width: 15rem;
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__img {
+  width: 15rem;
 }
-.section-ladrillos2__box__title{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    width: 15rem;
-    font-size: 1.2rem;
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 15rem;
+  font-size: 1.2rem;
 }
-.section-ladrillos2__box__text{
-    font-size: 1.2rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    text-align: center;
-    width: 15rem;
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__text {
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+  width: 15rem;
 }
 
 /*QUIENES SOMOS*/
+.container .titulo-quienessomos {
+  text-align: center;
+  color: #9ee754;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-size: 5rem;
+  margin: 1rem;
+}
 
-.quienessomos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container .texto1 {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-top: 1rem;
+  margin: 1rem;
 }
-.titulo-quienessomos{
-    text-align: center;
-    color: rgb(158, 231, 84);
-    font-family:'IBM Plex Sans Thai', sans-serif;
-    font-size: 5rem;
-    margin: 1rem;
+
+.container .texto1__a {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-top: 1rem;
+  margin: 1rem;
 }
-.texto1{
-    font-family:'IBM Plex Sans Thai', sans-serif;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    padding-top: 1rem;
-    margin: 1rem;
-}
-.texto1__a{
-    text-align: center;
-    font-family:'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    padding-top: 1rem;
-    margin: 1rem;
-}
-.texto1__b{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    padding-top: 1rem;
-    margin: 1rem;
+
+.container .texto1__b {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding-top: 1rem;
+  margin: 1rem;
 }
 
 /*QUE ES RED VERDE*/
-
-.section-Texto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.section-Texto__Titulo{
-    text-align: center;
-}
-.section-Texto__Texto{
-    text-align: center;
-    margin: 1rem;
-}
-.link-productos{
-    text-decoration: none;
-    color: white;
-}
-.queEsRV-Title{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-}
-.section-QueEsRV{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.section-QueEsRV__box{
-    align-self: center;
-    width: 20rem;
-    margin: 1rem;
-}
-.section-QueEsRV__box__img{
-    width: 20rem;
-}
-.section-QueEsRV__box__title{
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    width: 20rem;
-    text-align: center;
-}
-.section-QueEsRV__box__text{
-    width: 20rem;
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+.section-Texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.section-QueEsRV2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.section-QueEsRV2__box{
-    align-self: center;
-    width: 20rem;
-    margin: 1rem;
-}
-.section-QueEsRV2__box__img{
-    width: 20rem;
-}
-.section-QueEsRV2__box__title{
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    width: 20rem;
-    text-align: center;
-}
-.section-QueEsRV2__box__text{
-    width: 20rem;
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+.section-Texto .section-Texto__titulo {
+  text-align: center;
 }
 
-.section-QueEsRV3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.section-Texto .section-Texto__texto {
+  text-align: center;
+  margin: 1rem;
 }
-.section-QueEsRV3__box{
-    align-self: center;
-    width: 20rem;
-    margin: 1rem;
+
+.queEsRV-Title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.section-QueEsRV3__box__img{
-    width: 20rem;
+
+.section-QueEsRV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.section-QueEsRV3__box__title{
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    width: 20rem;
-    text-align: center;
+
+.section-QueEsRV .section-QueEsRV__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
 }
-.section-QueEsRV3__box__text{
-    width: 20rem;
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
 /*RECICLAR CON NOSOTROS*/
+.titulo-reciclarconnosotros {
+  color: white;
+  width: auto;
+  height: 10rem;
+  padding: 1rem;
+  text-align: center;
+  text-shadow: black 0.1rem 0.2rem;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  background-color: #ffc107;
+}
 
-.titulo-reciclarconnosotros{
-    color: white;
-    width: auto;
-    height: 10rem;
-    padding: 1rem;
-    text-align: center;
-    text-shadow: black 0.1rem 0.2rem;
-    font-size: 3rem;
-    margin-top: 0.5rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    background-color:#ffc107;
+.section-reciclar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.section-reciclar{
-    display: flex;
-    flex-direction: column;
+
+.section-reciclar .section-reciclar__text {
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-.section-reciclar__text{
-    font-size: 1.2rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+.contacto {
+  margin: 1.6rem;
 }
-.contacto{
-    margin: 1.6rem;
-}
-.texto3{
-    margin: 1rem;
-    text-align: left;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    margin: 1.6rem;
-}
+
 /*CONTACTO*/
-.contacto-Title{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    background-color: #ffc107;
-    height: 5rem;
+.contacto-Title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffc107;
+  height: 5rem;
 }
-.contacto-Title__1{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    color: white;
-    text-shadow: black 0.1rem 0.1rem;
-    padding: 1rem;
+
+.contacto-Title .contacto-Title__1 {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  padding: 1rem;
 }
-.contacto-Box{
-    margin: 1.6rem;
+
+.contacto-Box {
+  margin: 1.6rem;
 }
-.contacto-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 1.6rem;
+
+.contacto-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1.6rem;
 }
+/*# sourceMappingURL=styles.css.map */
 
 /*MEDIA QUERIES*/
 @media (min-width: 768px){
-    /*INICIO*/
+  /*INICIO*/
 
-    .section-beneficios{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 1rem;
-    }
-    .section-beneficios__box{
-        width: 13rem;
-        height: 20rem;
-        align-self: center;
-        justify-content: center;
-    }
-    .section-beneficios__box__img{
-        width: 13rem;
-    }
-    .section-beneficios__box__title{
-        text-align: center;
-    }
-    .section-beneficios__box__text{
-        text-align: center;
-    }
-    .section-beneficios2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 1rem;
-    }
-    .section-beneficios2__box{
-        width: 13rem;
-        height: 20rem;
-        align-self: center;
-        justify-content: space-around;
-    }
-    .section-beneficios2__box__img{
-        width: 12rem;
-    }
-    .section-beneficios2__box__title{
-        text-align: center;
-    }
-    .section-beneficios2__box__text{
-        text-align: center;
-    }
-    .atajo-RedVerde{
-        display: flex;
-        flex-direction: column;
-    }
-    .atajo-RedVerde__1{
-        margin-top: 4rem;
-        font-size: 1rem;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        text-align: center;
-        font-size: 1.6rem;
-    }
-    .atajo-RedVerde__2{
-        margin-top: 1rem;
-        text-align: center;
-        font-size: 2rem;
-    }
-    
-    /*PRODUCTOS*/
+  .section-beneficios{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 1rem;
+  }
+  .section-beneficios__box{
+      width: 13rem;
+      height: 20rem;
+      align-self: center;
+      justify-content: center;
+  }
+  .section-beneficios__box__img{
+      width: 13rem;
+  }
+  .section-beneficios__box__title{
+      text-align: center;
+  }
+  .section-beneficios__box__text{
+      text-align: center;
+  }
+  .section-beneficios2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 1rem;
+  }
+  .section-beneficios2__box{
+      width: 13rem;
+      height: 20rem;
+      align-self: center;
+      justify-content: space-around;
+  }
+  .section-beneficios2__box__img{
+      width: 12rem;
+  }
+  .section-beneficios2__box__title{
+      text-align: center;
+  }
+  .section-beneficios2__box__text{
+      text-align: center;
+  }
+  .atajo-RedVerde{
+      display: flex;
+      flex-direction: column;
+  }
+  .atajo-RedVerde__1{
+      margin-top: 4rem;
+      font-size: 1rem;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      text-align: center;
+      font-size: 1.6rem;
+  }
+  .atajo-RedVerde__2{
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 2rem;
+  }
+  
+  /*PRODUCTOS*/
 
-    .section-ladrillos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: auto;
-    }
-    .section-ladrillos__box{
-        width: 17rem;
-        height: 30rem;
-        align-self: center;
-        margin: 1rem;
-    }
-    .section-ladrillos__box__img{
-        width: 17rem;
-    }
-    .section-ladrillos__box__title{
-        text-align: center;
-        width: 15rem;
-        font-size: 1.2rem;
-    }
-    .section-ladrillos__box__text{
-        font-size: 1.2rem;
-        text-align: center;
-        width: 15rem;
-    }
+  .section-ladrillos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: auto;
+  }
+  .section-ladrillos__box{
+      width: 17rem;
+      height: 30rem;
+      align-self: center;
+      margin: 1rem;
+  }
+  .section-ladrillos__box__img{
+      width: 17rem;
+  }
+  .section-ladrillos__box__title{
+      text-align: center;
+      width: 15rem;
+      font-size: 1.2rem;
+  }
+  .section-ladrillos__box__text{
+      font-size: 1.2rem;
+      text-align: center;
+      width: 15rem;
+  }
 
-    .section-ladrillos2{
-        margin: 1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: auto;
-    }
-    .section-ladrillos2__box{
-        width: 17rem;
-        height: 30rem;
-        align-self: center;
-    }
-    .section-ladrillos2__box__img{
-        width: 17rem;
-    }
-    .section-ladrillos2__box__title{
-        text-align: center;
-        width: 15rem;
-        font-size: 1.2rem;
-    }
-    .section-ladrillos2__box__text{
-        font-size: 1.2rem;
-        text-align: center;
-        width: 15rem;
-    }
-    .titulo-productos{
-        margin-top: 0.5rem;
-        background-color: #ffc107;
-        width: 100%;
-        height: 8rem;
-        padding: 1.5rem;
-        font-size: 1.6rem;
-    }
-    .titulo-productos__1{
-        text-align: center;
-        color: white;
-        text-shadow: black 0.1rem 0.2rem;
-    }
-    
-    /*QUIENES SOMOS*/
+  .section-ladrillos2{
+      margin: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: auto;
+  }
+  .section-ladrillos2__box{
+      width: 17rem;
+      height: 30rem;
+      align-self: center;
+  }
+  .section-ladrillos2__box__img{
+      width: 17rem;
+  }
+  .section-ladrillos2__box__title{
+      text-align: center;
+      width: 15rem;
+      font-size: 1.2rem;
+  }
+  .section-ladrillos2__box__text{
+      font-size: 1.2rem;
+      text-align: center;
+      width: 15rem;
+  }
+  .titulo-productos{
+      margin-top: 0.5rem;
+      background-color: #ffc107;
+      width: 100%;
+      height: 8rem;
+      padding: 1.5rem;
+      font-size: 1.6rem;
+  }
+  .titulo-productos__1{
+      text-align: center;
+      color: white;
+      text-shadow: black 0.1rem 0.2rem;
+  }
+  
+  /*QUIENES SOMOS*/
 
-    .quienessomos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .titulo-quienessomos{
-        text-align: center;
-        color: rgb(158, 231, 84);
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 5rem;
-        margin: 1rem;
-    }
-    .texto1{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        text-align: center;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
-    .texto1__a{
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
-    .texto1__b{
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
-    
-    /*QUE ES RED VERDE*/
+  .titulo-quienessomos{
+      text-align: center;
+      color: rgb(158, 231, 84);
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-size: 5rem;
+      margin: 1rem;
+  }
+  .texto1{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding-top: 1rem;
+      margin: 1rem;
+  }
+  .texto1__a{
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding-top: 1rem;
+      margin: 1rem;
+  }
+  .texto1__b{
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding-top: 1rem;
+      margin: 1rem;
+  }
+  
+  /*QUE ES RED VERDE*/
 
-    .section-Texto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .section-Texto__Titulo{
-        text-align: center;
-        margin: 1rem;
-    }
-    .section-Texto__Texto{
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.2rem;
-    }
-    .link-productos{
-        text-decoration: none;
-        color: white;
-    }
-    .queEsRV-Title{
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        margin-top: 1rem;
-    }
-    .section-QueEsRV{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 48rem;
-        height: 25rem;
-    }
-    .section-QueEsRV__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0;
-    }
-    .section-QueEsRV__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
-    
-    .section-QueEsRV2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 48rem;
-        height: 25rem;
-    }
-    .section-QueEsRV2__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0rem;
-        margin-top: 2rem;
-    }
-    .section-QueEsRV2__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV2__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV2__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
-    
-    .section-QueEsRV3{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 48rem;
-        height: 25rem;
-    }
-    .section-QueEsRV3__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0rem;
-    }
-    .section-QueEsRV3__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV3__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV3__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
-    
-    /*RECICLAR CON NOSOTROS*/
+  .section-Texto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .section-Texto__Titulo{
+      text-align: center;
+      margin: 1rem;
+  }
+  .section-Texto__Texto{
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.2rem;
+  }
+  .link-productos{
+      text-decoration: none;
+      color: white;
+  }
+  .queEsRV-Title{
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      margin-top: 1rem;
+  }
+  .section-QueEsRV{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 48rem;
+      height: 25rem;
+  }
+  .section-QueEsRV__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0;
+  }
+  .section-QueEsRV__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
+  
+  .section-QueEsRV2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 48rem;
+      height: 25rem;
+  }
+  .section-QueEsRV2__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0rem;
+      margin-top: 2rem;
+  }
+  .section-QueEsRV2__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV2__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV2__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
+  
+  .section-QueEsRV3{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 48rem;
+      height: 25rem;
+  }
+  .section-QueEsRV3__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0rem;
+  }
+  .section-QueEsRV3__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV3__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV3__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
+  
+  /*RECICLAR CON NOSOTROS*/
 
-    .titulo-reciclarconnosotros{
-        color: white;
-        width: auto;
-        height: 10rem;
-        padding: 1rem;
-        text-align: center;
-        text-shadow: black 0.1rem 0.2rem;
-        font-size: 3rem;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        background-color:#ffc107;
-    }
-    
+  .titulo-reciclarconnosotros{
+      color: white;
+      width: auto;
+      height: 10rem;
+      padding: 1rem;
+      text-align: center;
+      text-shadow: black 0.1rem 0.2rem;
+      font-size: 3rem;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      background-color:#ffc107;
+  }
+  
 
 /*DESKTOP*/
 @media ( min-width:1200px){
 
-    .section-beneficios{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 16rem;
-        margin-top: 3rem;
-    }
-    .section-beneficios__box{
-        width: 13rem;
-        align-self: center;
-        justify-content: center;
-    }
-    .section-beneficios__box__img{
-        width: 13rem;
-    }
-    .section-beneficios__box__title{
-        text-align: center;
-    }
-    .section-beneficios__box__text{
-        text-align: center;
-    }
-    .section-beneficios2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        height: 17rem;
-        margin-top: 1rem;
-    }
-    .section-beneficios2__box{
-        width: 13rem;
-        align-self: center;
-        justify-content: space-around;
-    }
-    .section-beneficios2__box__img{
-        width: 12rem;
-    }
-    .section-beneficios2__box__title{
-        text-align: center;
-    }
-    .section-beneficios2__box__text{
-        text-align: center;
-    }
-    .atajo-RedVerde{
-        display: flex;
-        flex-direction: column;
-    }
-    .atajo-RedVerde__1{
-        margin-top: 4rem;
-        font-size: 1.6rem;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        text-align: center;
-        transition: font-size 1s;
-    }
-    .atajo-RedVerde__1:hover{
-        font-size: 2rem;
-    }
-    .atajo-RedVerde__2{
-        margin-top: 1rem;
-        text-align: center;
-        font-size: 2rem;
-        transition: font-size 1s;
-    }
-    .atajo-RedVerde__2:hover{
-        font-size: 2.5rem;
-    }
-    
-    /*PRODUCTOS*/
-    .titulo-productos{
-        background-color: #ffc107;
-    }
-    .titulo-productos__1{
-        text-align: center;
-        color: white;
-        text-shadow: black 0.1rem 0.2rem;
-        padding: 1rem;
-        font-size: 4rem;
-    }
+  .section-beneficios{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 16rem;
+      margin-top: 3rem;
+  }
+  .section-beneficios__box{
+      width: 13rem;
+      align-self: center;
+      justify-content: center;
+  }
+  .section-beneficios__box__img{
+      width: 13rem;
+  }
+  .section-beneficios__box__title{
+      text-align: center;
+  }
+  .section-beneficios__box__text{
+      text-align: center;
+  }
+  .section-beneficios2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 17rem;
+      margin-top: 1rem;
+  }
+  .section-beneficios2__box{
+      width: 13rem;
+      align-self: center;
+      justify-content: space-around;
+  }
+  .section-beneficios2__box__img{
+      width: 12rem;
+  }
+  .section-beneficios2__box__title{
+      text-align: center;
+  }
+  .section-beneficios2__box__text{
+      text-align: center;
+  }
+  .atajo-RedVerde{
+      display: flex;
+      flex-direction: column;
+  }
+  .atajo-RedVerde__1{
+      margin-top: 4rem;
+      font-size: 1.6rem;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      text-align: center;
+      transition: font-size 1s;
+  }
+  .atajo-RedVerde__1:hover{
+      font-size: 2rem;
+  }
+  .atajo-RedVerde__2{
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      transition: font-size 1s;
+  }
+  .atajo-RedVerde__2:hover{
+      font-size: 2.5rem;
+  }
+  
+  /*PRODUCTOS*/
+  .titulo-productos{
+      background-color: #ffc107;
+  }
+  .titulo-productos__1{
+      text-align: center;
+      color: white;
+      text-shadow: black 0.1rem 0.2rem;
+      padding: 1rem;
+      font-size: 4rem;
+  }
 
-    .section-ladrillos{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: auto;
-        margin: 1rem;
-    }
-    .section-ladrillos__box{
-        width: 17rem;
-        height: 30rem;
-        align-self: center;
-    }
-    .section-ladrillos__box__img{
-        width: 17rem;
-    }
-    .section-ladrillos__box__title{
-        text-align: center;
-        width: 15rem;
-        font-size: 1.2rem;
-    }
-    .section-ladrillos__box__text{
-        font-size: 1.2rem;
-        text-align: center;
-        width: 15rem;
-    }
+  .section-ladrillos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: auto;
+      margin: 1rem;
+  }
+  .section-ladrillos__box{
+      width: 17rem;
+      height: 30rem;
+      align-self: center;
+  }
+  .section-ladrillos__box__img{
+      width: 17rem;
+  }
+  .section-ladrillos__box__title{
+      text-align: center;
+      width: 15rem;
+      font-size: 1.2rem;
+  }
+  .section-ladrillos__box__text{
+      font-size: 1.2rem;
+      text-align: center;
+      width: 15rem;
+  }
 
-    .section-ladrillos2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: auto;
-    }
-    .section-ladrillos2__box{
-        width: 17rem;
-        height: 30rem;
-        align-self: center;
-    }
-    .section-ladrillos2__box__img{
-        width: 17rem;
-    }
-    .section-ladrillos2__box__title{
-        text-align: center;
-        width: 15rem;
-        font-size: 1.2rem;
-    }
-    .section-ladrillos2__box__text{
-        font-size: 1.2rem;
-        text-align: center;
-        width: 15rem;
-    }
-    
-    /*QUIENES SOMOS*/
-    .quienessomos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .titulo-quienessomos{
-        text-align: center;
-        color: rgb(158, 231, 84);
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 5rem;
-        margin: 2rem;
-        transition: color 1s;
-    }
-    .titulo-quienessomos:hover{
-        color: #ffc107;
-    }
-    .texto1{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        text-align: center;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 2rem;
-    }
-    .texto1__a{
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.6rem;
-        padding-top: 1rem;
-        margin: 2rem;
-    }
-    /*QUE ES RED VERDE*/
+  .section-ladrillos2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: auto;
+  }
+  .section-ladrillos2__box{
+      width: 17rem;
+      height: 30rem;
+      align-self: center;
+  }
+  .section-ladrillos2__box__img{
+      width: 17rem;
+  }
+  .section-ladrillos2__box__title{
+      text-align: center;
+      width: 15rem;
+      font-size: 1.2rem;
+  }
+  .section-ladrillos2__box__text{
+      font-size: 1.2rem;
+      text-align: center;
+      width: 15rem;
+  }
+  
+  /*QUIENES SOMOS*/
+  
+  .titulo-quienessomos{
+      text-align: center;
+      color: rgb(158, 231, 84);
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-size: 5rem;
+      margin: 2rem;
+      transition: color 1s;
+  }
+  .titulo-quienessomos:hover{
+      color: #ffc107;
+  }
+  .texto1{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding-top: 1rem;
+      margin: 2rem;
+  }
+  .texto1__a{
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding-top: 1rem;
+      margin: 2rem;
+  }
+  /*QUE ES RED VERDE*/
 
-    .section-Texto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .section-Texto__Titulo{
-        text-align: center;
-        margin: 1rem;
-    }
-    .section-Texto__Texto{
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.2rem;
-    }
-    .link-productos{
-        text-decoration: none;
-        color: white;
-    }
-    .queEsRV-Title{
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        margin-top: 1rem;
-        font-size: 2rem;
-    }
-    .section-QueEsRV{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: auto;
-        height: 25rem;
-    }
-    .section-QueEsRV__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0;
-    }
-    .section-QueEsRV__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
-    
-    .section-QueEsRV2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: auto;
-        height: 25rem;
-    }
-    .section-QueEsRV2__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0rem;
-        margin-top: 2rem;
-    }
-    .section-QueEsRV2__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV2__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV2__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
-    
-    .section-QueEsRV3{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: auto;
-        height: 25rem;
-    }
-    .section-QueEsRV3__box{
-        align-self: center;
-        width: 16rem;
-        height: 20rem;
-        margin: 0rem;
-    }
-    .section-QueEsRV3__box__img{
-        width: 16rem;
-    }
-    .section-QueEsRV3__box__title{
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        width: 16rem;
-        text-align: center;
-    }
-    .section-QueEsRV3__box__text{
-        width: 15rem;
-        text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-    }
+  .section-Texto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .section-Texto__Titulo{
+      text-align: center;
+      margin: 1rem;
+  }
+  .section-Texto__Texto{
+      text-align: center;
+      margin: 1rem;
+      font-size: 1.2rem;
+  }
+  .link-productos{
+      text-decoration: none;
+      color: white;
+  }
+  .queEsRV-Title{
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      margin-top: 1rem;
+      font-size: 2rem;
+  }
+  .section-QueEsRV{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: auto;
+      height: 25rem;
+  }
+  .section-QueEsRV__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0;
+  }
+  .section-QueEsRV__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
+  
+  .section-QueEsRV2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: auto;
+      height: 25rem;
+  }
+  .section-QueEsRV2__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0rem;
+      margin-top: 2rem;
+  }
+  .section-QueEsRV2__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV2__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV2__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
+  
+  .section-QueEsRV3{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: auto;
+      height: 25rem;
+  }
+  .section-QueEsRV3__box{
+      align-self: center;
+      width: 16rem;
+      height: 20rem;
+      margin: 0rem;
+  }
+  .section-QueEsRV3__box__img{
+      width: 16rem;
+  }
+  .section-QueEsRV3__box__title{
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      width: 16rem;
+      text-align: center;
+  }
+  .section-QueEsRV3__box__text{
+      width: 15rem;
+      text-align: center;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+  }
 
-    /*RECICLAR CON NOSOTROS*/
-    
-    .titulo-reciclarconnosotros{
-        color: white;
-        width: auto;
-        height: 12rem;
-        padding: 2rem;
-        text-align: center;
-        text-shadow: black 0.1rem 0.2rem;
-        font-size: 4rem;
-        margin-top: 0.5rem;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        background-color:#ffc107;
-    }
-    .foto-reciclando{
-        width: 60rem;
-        height: 30rem;
-        margin-left: 12rem;
-    }
+  /*RECICLAR CON NOSOTROS*/
+  
+  .titulo-reciclarconnosotros{
+      color: white;
+      width: auto;
+      height: 12rem;
+      padding: 2rem;
+      text-align: center;
+      text-shadow: black 0.1rem 0.2rem;
+      font-size: 4rem;
+      margin-top: 0.5rem;
+      font-family: 'IBM Plex Sans Thai', sans-serif;
+      background-color:#ffc107;
+  }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

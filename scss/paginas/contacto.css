@@ -1,0 +1,34 @@
+/*CONTACTO*/
+.contacto-Title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #ffc107;
+  height: 5rem;
+}
+
+.contacto-Title .contacto-Title__1 {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  padding: 1rem;
+}
+
+.contacto-Box {
+  margin: 1.6rem;
+}
+
+.contacto-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1.6rem;
+}
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,83 @@
+/*INICIO*/
+.section-beneficios{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    .section-beneficios__box{
+        width: 13rem;
+        align-self: center;
+        justify-content: center;
+        .section-beneficios__box__img{
+            width: 12rem;
+            transition: width 1s;
+        }
+        .section-beneficios__box__title{
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+        .section-beneficios__box__text{
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    }
+}
+
+.section-beneficios2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .section-beneficios2__box{
+        width: 13rem;
+        align-self: center;
+        justify-content: center;
+        .section-beneficios2__box__img{
+            width: 12rem;
+        }
+        .section-beneficios2__box__title{
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+        .section-beneficios2__box__text{
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+    }
+}
+.atajo-RedVerde{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .atajo-RedVerde__1{
+        margin-top: 4rem;
+        font-size: 1rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        text-align: center;
+    }
+    .atajo-RedVerde__2{
+        margin-top: 1rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        font-size: 1.6rem;
+    }
+    .box-Boton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .boton-Link{
+            width: 15rem;
+            margin: 2rem;
+            text-align: center;
+            background-color: #ffc107;
+            text-decoration: none;
+            color: white;
+            text-shadow: black 0.1rem 0.1rem;
+            transition: color 1s background-color 1s ;
+            .boton-Link:hover{
+                color: white;
+                background-color: #ffc107cc;
+            }
+        }
+    }
+}

@@ -16,7 +16,9 @@
 }
 .section-beneficios__box__img{
     width: 12rem;
+    transition: width 1s;
 }
+
 .section-beneficios__box__title{
     text-align: center;
     font-family: 'IBM Plex Sans Thai', sans-serif;
@@ -61,6 +63,7 @@
     margin-top: 1rem;
     text-align: center;
     font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 1.6rem;
 }
 .box-Boton{
     display: flex;
@@ -83,12 +86,12 @@
 }
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 1rem;
     background-color: #ffc107;
 }
 .footer__Box{
-    margin-left: 1rem;
+    margin: 1rem;
 }
 .footer__Box__1{
     margin-bottom: 0.2rem;
@@ -103,8 +106,7 @@
     font-family:'IBM Plex Sans Thai', sans-serif;
 }
 .footer__Redes{
-    margin-left: 1rem;
-    margin-top: 0.2rem;
+    margin: 1rem;
 }
 .footer__Redes__1{
     color:white;
@@ -221,32 +223,30 @@
 
 /*QUE ES RED VERDE*/
 
-.que-Es-RedVerde{
-    margin: 2rem;
+.section-Texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.que-Es-RedVerde__Titulo{
+.section-Texto__Titulo{
+    text-align: center;
+}
+.section-Texto__Texto{
     text-align: center;
     margin: 1rem;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-}
-.que-Es-RedVerde__Texto{
-    font-family:'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
 }
 .link-productos{
     text-decoration: none;
     color: white;
 }
+.queEsRV-Title{
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
 .section-QueEsRV{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-}
-.queEsRV-Title{
-    text-align: center;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    margin: 1rem;
 }
 .section-QueEsRV__box{
     align-self: center;
@@ -262,6 +262,54 @@
     text-align: center;
 }
 .section-QueEsRV__box__text{
+    width: 20rem;
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-QueEsRV2__box{
+    align-self: center;
+    width: 20rem;
+    margin: 1rem;
+}
+.section-QueEsRV2__box__img{
+    width: 20rem;
+}
+.section-QueEsRV2__box__title{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    width: 20rem;
+    text-align: center;
+}
+.section-QueEsRV2__box__text{
+    width: 20rem;
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-QueEsRV3__box{
+    align-self: center;
+    width: 20rem;
+    margin: 1rem;
+}
+.section-QueEsRV3__box__img{
+    width: 20rem;
+}
+.section-QueEsRV3__box__title{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    width: 20rem;
+    text-align: center;
+}
+.section-QueEsRV3__box__text{
     width: 20rem;
     text-align: center;
     font-family: 'IBM Plex Sans Thai', sans-serif;
@@ -292,14 +340,7 @@
 .contacto{
     margin: 1.6rem;
 }
-.texto3{
-    margin: 1rem;
-    text-align: left;
-    font-family: 'IBM Plex Sans Thai', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    margin: 1.6rem;
-}
+
 /*CONTACTO*/
 .contacto-Title{
     margin-top: 0.5rem;
@@ -377,7 +418,7 @@
     .atajo-RedVerde__1{
         margin-top: 4rem;
         font-size: 1rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         text-align: center;
         font-size: 1.6rem;
     }
@@ -386,38 +427,7 @@
         text-align: center;
         font-size: 2rem;
     }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-        background-color: #ffc107;
-    }
-    .footer__Box{
-        margin-left: 1rem;
-    }
-    .footer__Box__1{
-        margin-bottom: 0.2rem;
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .footer__Box__2{
-        margin-bottom: 0.2rem;
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    .footer__Redes{
-        margin-left: 1rem;
-        margin-top: 0.2rem;
-    }
-    .footer__Redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-    }
-    .Redes__2{
-        width: 2rem;
-    }
+    
     /*PRODUCTOS*/
 
     .section-ladrillos{
@@ -484,56 +494,18 @@
         color: white;
         text-shadow: black 0.1rem 0.2rem;
     }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-        font-size: 1.6rem;
-    }
-    .footer__2{
-        font-size: 1.1rem;
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        font-size: 1.6rem;
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
+    
     /*QUIENES SOMOS*/
 
-    .quienessomos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     .titulo-quienessomos{
         text-align: center;
         color: rgb(158, 231, 84);
-        font-family:'Rosario', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         font-size: 5rem;
         margin: 1rem;
     }
     .texto1{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         text-align: center;
         font-size: 1.5rem;
         line-height: 1.6rem;
@@ -542,7 +514,7 @@
     }
     .texto1__a{
         text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         font-size: 1.5rem;
         line-height: 1.6rem;
         padding-top: 1rem;
@@ -550,99 +522,120 @@
     }
     .texto1__b{
         text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         font-size: 1.5rem;
         line-height: 1.6rem;
         padding-top: 1rem;
         margin: 1rem;
     }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-        font-size: 1.6rem;
-    }
-    .footer__2{
-        font-size: 1.1rem;
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        font-size: 1.6rem;
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
+    
     /*QUE ES RED VERDE*/
 
-    .que-Es-RedVerde{
-        margin: 2rem;
+    .section-Texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .que-Es-RedVerde__Titulo{
-        font-size: 2rem;
+    .section-Texto__Titulo{
         text-align: center;
         margin: 1rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
-    .que-Es-RedVerde__Texto{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.4rem;
+    .section-Texto__Texto{
         text-align: center;
-        width: 25rem;
-        margin-left: 9rem;
+        margin: 1rem;
+        font-size: 1.2rem;
     }
+    .link-productos{
+        text-decoration: none;
+        color: white;
     }
-    .footer1{
+    .queEsRV-Title{
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         margin-top: 1rem;
-        background-color: #ffc107;
-        width: 100%;
     }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-        font-size: 1.6rem;
+    .section-QueEsRV{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 48rem;
+        height: 25rem;
     }
-    .footer__2{
-        font-size: 1.1rem;
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
+    .section-QueEsRV__box{
+        align-self: center;
+        width: 16rem;
+        height: 20rem;
+        margin: 0;
     }
-    .redes{
+    .section-QueEsRV__box__img{
+        width: 16rem;
+    }
+    .section-QueEsRV__box__title{
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
+        text-align: center;
+    }
+    .section-QueEsRV__box__text{
+        width: 15rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+    
+    .section-QueEsRV2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 48rem;
+        height: 25rem;
+    }
+    .section-QueEsRV2__box{
+        align-self: center;
+        width: 16rem;
+        height: 20rem;
+        margin: 0rem;
         margin-top: 2rem;
-        margin-left: 1rem;
     }
-    .redes__1{
-        font-size: 1.6rem;
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
+    .section-QueEsRV2__box__img{
+        width: 16rem;
     }
-    .redes__2{
-        width: 2rem;
+    .section-QueEsRV2__box__title{
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
+        text-align: center;
     }
+    .section-QueEsRV2__box__text{
+        width: 15rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+    
+    .section-QueEsRV3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 48rem;
+        height: 25rem;
+    }
+    .section-QueEsRV3__box{
+        align-self: center;
+        width: 16rem;
+        height: 20rem;
+        margin: 0rem;
+    }
+    .section-QueEsRV3__box__img{
+        width: 16rem;
+    }
+    .section-QueEsRV3__box__title{
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
+        text-align: center;
+    }
+    .section-QueEsRV3__box__text{
+        width: 15rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+    
     /*RECICLAR CON NOSOTROS*/
 
     .titulo-reciclarconnosotros{
@@ -653,43 +646,11 @@
         text-align: center;
         text-shadow: black 0.1rem 0.2rem;
         font-size: 3rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         background-color:#ffc107;
     }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-        font-size: 1.6rem;
-    }
-    .footer__2{
-        font-size: 1.1rem;
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        font-size: 1.6rem;
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
+    
+
 /*DESKTOP*/
 @media ( min-width:1200px){
 
@@ -742,44 +703,23 @@
     .atajo-RedVerde__1{
         margin-top: 4rem;
         font-size: 1.6rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         text-align: center;
+        transition: font-size 1s;
+    }
+    .atajo-RedVerde__1:hover{
+        font-size: 2rem;
     }
     .atajo-RedVerde__2{
         margin-top: 1rem;
         text-align: center;
+        font-size: 2rem;
+        transition: font-size 1s;
     }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
+    .atajo-RedVerde__2:hover{
+        font-size: 2.5rem;
     }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .footer__2{
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
+    
     /*PRODUCTOS*/
     .titulo-productos{
         background-color: #ffc107;
@@ -842,52 +782,22 @@
         text-align: center;
         width: 15rem;
     }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .footer__2{
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
+    
     /*QUIENES SOMOS*/
-    .quienessomos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
     .titulo-quienessomos{
         text-align: center;
         color: rgb(158, 231, 84);
-        font-family:'Rosario', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         font-size: 5rem;
         margin: 2rem;
+        transition: color 1s;
+    }
+    .titulo-quienessomos:hover{
+        color: #ffc107;
     }
     .texto1{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         text-align: center;
         font-size: 1.5rem;
         line-height: 1.6rem;
@@ -896,132 +806,120 @@
     }
     .texto1__a{
         text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         font-size: 1.5rem;
         line-height: 1.6rem;
         padding-top: 1rem;
         margin: 2rem;
-    }
-
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .footer__2{
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
     }
     /*QUE ES RED VERDE*/
 
     .section-Texto{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .section-Texto__Titulo{
-        font-size: 3rem;
         text-align: center;
-        margin: 2rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 1rem;
     }
     .section-Texto__Texto{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 1.6rem;
         text-align: center;
-        margin-left: 20rem;
-        width: 40rem;
+        margin: 1rem;
+        font-size: 1.2rem;
     }
-
-    .section-QueEsRV{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    .link-productos{
+        text-decoration: none;
+        color: white;
     }
     .queEsRV-Title{
         text-align: center;
-        margin: 1rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    .section-QueEsRV{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+        height: 25rem;
     }
     .section-QueEsRV__box{
         align-self: center;
-        width: 20rem;
-        margin: 1rem;
+        width: 16rem;
+        height: 20rem;
+        margin: 0;
     }
     .section-QueEsRV__box__img{
-        width: 20rem;
+        width: 16rem;
     }
     .section-QueEsRV__box__title{
-        width: 20rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
         text-align: center;
     }
     .section-QueEsRV__box__text{
-        width: 20rem;
+        width: 15rem;
         text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+    
+    .section-QueEsRV2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+        height: 25rem;
+    }
+    .section-QueEsRV2__box{
+        align-self: center;
+        width: 16rem;
+        height: 20rem;
+        margin: 0rem;
+        margin-top: 2rem;
+    }
+    .section-QueEsRV2__box__img{
+        width: 16rem;
+    }
+    .section-QueEsRV2__box__title{
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
+        text-align: center;
+    }
+    .section-QueEsRV2__box__text{
+        width: 15rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+    }
+    
+    .section-QueEsRV3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: auto;
+        height: 25rem;
+    }
+    .section-QueEsRV3__box{
+        align-self: center;
+        width: 16rem;
+        height: 20rem;
+        margin: 0rem;
+    }
+    .section-QueEsRV3__box__img{
+        width: 16rem;
+    }
+    .section-QueEsRV3__box__title{
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        width: 16rem;
+        text-align: center;
+    }
+    .section-QueEsRV3__box__text{
+        width: 15rem;
+        text-align: center;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
     }
 
-    .atajo-Productos{
-        color: white;
-        text-shadow: black 0.1rem 0.2rem;
-        text-align: center;
-        font-size: 1.6rem;
-        height: 6rem;
-        width: 15rem;
-        padding: 0.8rem;
-        margin: 3rem 35rem 3rem 35rem;
-        transition: background 2s;
-    }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .footer__2{
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
-    }
     /*RECICLAR CON NOSOTROS*/
     
     .titulo-reciclarconnosotros{
@@ -1033,44 +931,8 @@
         text-shadow: black 0.1rem 0.2rem;
         font-size: 4rem;
         margin-top: 0.5rem;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
         background-color:#ffc107;
-    }
-    .foto-reciclando{
-        width: 60rem;
-        height: 30rem;
-        margin-left: 12rem;
-    }
-    .footer1{
-        margin-top: 3rem;
-        background-color: #ffc107;
-        width: 100%;
-    }
-    .footer__1{
-        text-shadow: rgb(0, 0, 0) 0.1rem 0.1rem;
-        color: rgb(253, 252, 252);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .footer__2{
-        text-shadow: rgb(5, 5, 5) 0.1rem 0.1rem;
-        color: rgb(253, 253, 253);
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin-left: 1rem;
-        margin-bottom: 0.1rem;
-    }
-    .redes{
-        margin-top: 2rem;
-        margin-left: 1rem;
-    }
-    .redes__1{
-        color:white;
-        text-shadow: black 0.1rem 0.1rem;
-        margin-bottom: 0.5rem;
-    }
-    .redes__2{
-        width: 2rem;
     }
 
 }

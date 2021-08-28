@@ -1,0 +1,144 @@
+/*QUE ES RED VERDE*/
+.section-Texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-Texto .section-Texto__titulo {
+  text-align: center;
+}
+
+.section-Texto .section-Texto__texto {
+  text-align: center;
+  margin: 1rem;
+}
+
+.queEsRV-Title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-QueEsRV .section-QueEsRV__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV .section-QueEsRV__box .section-QueEsRV__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV2 .section-QueEsRV2__box .section-QueEsRV2__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-QueEsRV3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__img {
+  width: 20rem;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__title {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 20rem;
+  text-align: center;
+}
+
+.section-QueEsRV3 .section-QueEsRV3__box .section-QueEsRV3__box__text {
+  width: 20rem;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.link-productos {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=queEsRedVerde.css.map */

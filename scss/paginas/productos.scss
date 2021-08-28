@@ -1,0 +1,68 @@
+/*PRODUCTOS*/
+
+.titulo-productos{
+    margin-top: 0.5rem;
+    background-color: #ffc107;
+    height: 5rem;
+    .titulo-productos__1{
+        text-align: center;
+        color: white;
+        text-shadow: black 0.1rem 0.1rem;
+        font-family: 'IBM Plex Sans Thai', sans-serif;
+        padding: 1rem;
+    }
+}
+.section-ladrillos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+    .section-ladrillos__box{
+        width: 16rem;
+        align-self: center;
+        justify-content: center;
+        .section-ladrillos__box__img{
+            width: 15rem;
+        }
+        .section-ladrillos__box__title{
+            text-align: center;
+            width: 15rem;
+            font-size: 1.2rem;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+        .section-ladrillos__box__text{
+            font-size: 1.2rem;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            text-align: center;
+            width: 15rem;
+        }
+    }
+}
+.section-ladrillos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+    .section-ladrillos2__box{
+        width: 16rem;
+        align-self: center;
+        .section-ladrillos2__box__img{
+            width: 15rem;
+        }
+        .section-ladrillos2__box__title{
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            width: 15rem;
+            font-size: 1.2rem;
+        }
+        .section-ladrillos2__box__text{
+            font-size: 1.2rem;
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+            text-align: center;
+            width: 15rem;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,96 @@
+/*PRODUCTOS*/
+.titulo-productos {
+  margin-top: 0.5rem;
+  background-color: #ffc107;
+  height: 5rem;
+}
+
+.titulo-productos .titulo-productos__1 {
+  text-align: center;
+  color: white;
+  text-shadow: black 0.1rem 0.1rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  padding: 1rem;
+}
+
+.section-ladrillos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: auto;
+}
+
+.section-ladrillos .section-ladrillos__box {
+  width: 16rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__img {
+  width: 15rem;
+}
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__title {
+  text-align: center;
+  width: 15rem;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.section-ladrillos .section-ladrillos__box .section-ladrillos__box__text {
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+  width: 15rem;
+}
+
+.section-ladrillos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: auto;
+}
+
+.section-ladrillos2 .section-ladrillos2__box {
+  width: 16rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__img {
+  width: 15rem;
+}
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__title {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  width: 15rem;
+  font-size: 1.2rem;
+}
+
+.section-ladrillos2 .section-ladrillos2__box .section-ladrillos2__box__text {
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  text-align: center;
+  width: 15rem;
+}
+/*# sourceMappingURL=productos.css.map */

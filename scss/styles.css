@@ -1,0 +1,97 @@
+/*IMPORT*/
+@import url(componentes/globales.scss);
+@import url(componentes/footer.scss);
+@import url(paginas/index.scss);
+@import url(paginas/productos.scss);
+@import url(paginas/quienessomos.scss);
+@import url(paginas/queEsRedVerde.scss);
+@import url(paginas/reciclarConNosotros.scss);
+@import url(paginas/contacto.scss);
+@import url(mediaQueries/tablet.scss);
+@import url(mediaQueries/desktop.scss);
+/*INICIO-TABLET*/
+@media (min-width: 768px) {
+  .section-beneficios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .section-beneficios .section-beneficios__box {
+    width: 13rem;
+    height: 20rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-beneficios .section-beneficios__box .section-beneficios__box__img {
+    width: 13rem;
+  }
+  .section-beneficios .section-beneficios__box .section-beneficios__box__title {
+    text-align: center;
+  }
+  .section-beneficios .section-beneficios__box .section-beneficios__box__text {
+    text-align: center;
+  }
+  .section-beneficios2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .section-beneficios2 .section-beneficios2__box {
+    width: 13rem;
+    height: 20rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .section-beneficios2 .section-beneficios2__box__img {
+    width: 12rem;
+  }
+  .section-beneficios2 .section-beneficios2__box__title {
+    text-align: center;
+  }
+  .section-beneficios2 .section-beneficios2__box__text {
+    text-align: center;
+  }
+  .atajo-RedVerde {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .atajo-RedVerde .atajo-RedVerde__1 {
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .atajo-RedVerde .atajo-RedVerde__2 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
