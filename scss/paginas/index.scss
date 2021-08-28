@@ -13,11 +13,11 @@
         }
         .section-beneficios__box__title{
             text-align: center;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-family: $IBM;
         }
         .section-beneficios__box__text{
             text-align: center;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-family: $IBM;
         }
     }
 }
@@ -36,11 +36,11 @@
         }
         .section-beneficios2__box__title{
             text-align: center;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-family: $IBM;
         }
         .section-beneficios2__box__text{
             text-align: center;
-            font-family: 'IBM Plex Sans Thai', sans-serif;
+            font-family: $IBM;
         }
     }
 }
@@ -52,13 +52,13 @@
     .atajo-RedVerde__1{
         margin-top: 4rem;
         font-size: 1rem;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
+        font-family: $IBM;
         text-align: center;
     }
     .atajo-RedVerde__2{
         margin-top: 1rem;
         text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
+        font-family: $IBM;
         font-size: 1.6rem;
     }
     .box-Boton{
@@ -69,14 +69,14 @@
             width: 15rem;
             margin: 2rem;
             text-align: center;
-            background-color: #ffc107;
+            background-color: $amarillo;
             text-decoration: none;
             color: white;
-            text-shadow: black 0.1rem 0.1rem;
+            text-shadow: $borde-negro;
             transition: color 1s background-color 1s ;
             .boton-Link:hover{
-                color: white;
-                background-color: #ffc107cc;
+                color: $blanco;
+                background-color: $amarillo;
             }
         }
     }

@@ -3,13 +3,13 @@
 .contacto-Title{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    background-color: #ffc107;
+    background-color: $amarillo;
     height: 5rem;
     .contacto-Title__1{
         text-align: center;
-        font-family: 'IBM Plex Sans Thai', sans-serif;
-        color: white;
-        text-shadow: black 0.1rem 0.1rem;
+        font-family: $IBM;
+        color: $blanco;
+        text-shadow: $borde-negro;
         padding: 1rem;
     }
 }
