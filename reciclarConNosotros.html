@@ -18,7 +18,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><h1 class="navbar-brand">RED VERDE</h1></a>
+        <a class="navbar-brand" href="index.html"><h1 class="navbar-brand fs-2">RED VERDE</h1></a>
         <button class="navbar-toggler" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,21 +47,22 @@
     </nav>
     <h1 class="titulo-reciclarconnosotros">Reciclar con nosotros</h1>
     <section class="section-reciclar">
-      <img class="section-reciclar__img" src="https://www.rionegro.com.ar/wp-content/uploads/documents/1/0/image_content_9949888_20180729201747.jpg?w=920&h=520&crop=1" alt="Imagen de operarios de reciclado">
-      <p class="section-reciclar__text">Si queres formar parte de nuestra red de reciclaje, dejanos tu informacion aca abajo.</p>
+      <div class="container">
+        <img class="w-100" src="https://www.rionegro.com.ar/wp-content/uploads/documents/1/0/image_content_9949888_20180729201747.jpg?w=920&h=520&crop=1" alt="Imagen de operarios de reciclado">
+      </div>
+      <p class="text-center fs-4">Si queres formar parte de nuestra red de reciclaje, dejanos tu informacion.</p>
     </section>
-    <form class="contacto">
-        <fieldset>
-          <div class="contacto__nombre">
-            <label for="Nombre y Apellido">Nombre y Apellido</label>
-            <input type="text" id="Nombre-y-apellido" name="Nombre y Apellido">
-          </div>
-          <br>
-          <div class="contacto__telefono">
-            <label for="Telefono">Telefono</label>
-            <input type="text" id="Telefono" name="Telefono">
-          </div>
-          <br>
+    <div class="container">
+      <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text fs-5" id="inputGroup-sizing-sm">Nombre y Apellido</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text fs-5" id="inputGroup-sizing-sm">Telefono</span>
+        <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      <div class="row">
+        <div class="col-sm-6 m-1">
           <select class="form-select" aria-label="Default select example">
             <option selected>Zona de Recoleccion</option>
             <option value="1">Zona Norte</option>
@@ -69,38 +70,43 @@
             <option value="3">Zona Oeste</option>
             <option value="4">Zona Este</option>
           </select>
-          <br>
-          <div class="contacto__sexo">
-            <label for="Sexo">Sexo</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Hombre</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Mujer</label>
-          </div>
-          <br>
-          <div class="col-12">
-            <button class="btn btn-warning" type="submit">ENVIAR</button>
-          </div>
-        </fieldset>
-      </form>
-      <footer class="footer">
-        <div class="footer__Box">
-          <h3 class="footer__Box__1">Direccion</h3>
-          <p class="footer__Box__2">Nos encontramos en calle falsa 123,Moron,Buenos Aires</p>
-          <h3 class="footer__Box__1">Horarios de Atencion</h3>
-          <p class="footer__Box__2">Lunes a Viernes de 8 a 17hs</p>
-          <h3 class="footer__Box__1">Telefono</h3>
-          <p class="footer__Box__2">(011)2520-5451</p>
         </div>
-        <div class="footer__Redes">
-          <h3 class="footer__Redes__1">Seguinos en las redes</h3>
-          <img class="Redes__2" src="imagenes/facebook.jpg" alt="Logo de facebook">
-          <img class="Redes__2" src="imagenes/instagram.png" alt="Logo de Instagram">
+      </div>
+      <div class="container">
+        <label class="d-grid fs-5" for="Sexo">Sexo</label>
+        <div class="form-check form-check-inline ">
+          <label class="form-check-label fs-5" for="inlineCheckbox1">Hombre</label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
         </div>
-      </footer>
+        <div class="form-check form-check-inline">
+          <label class="form-check-label" for="inlineCheckbox2">Mujer</label>
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-sm-3 mx-auto m-3">
+        <button class="btn btn-warning text-white" type="submit">ENVIAR</button>
+      </div>
+    </div>
+    <footer class="container-fluid bg-warning">
+      <div class="row">
+        <div class="col-sm-2 m-1">
+          <h3 class="text-black text-opacity-75 fs-6">Direccion</h3>
+          <p class="text-black text-opacity-75 fs-6">Calle falsa 123,Moron</p>
+        </div>
+        <div class="col-sm m-1">
+          <h3 class="text-black text-opacity-75 fs-6">Horarios de Atencion</h3>
+          <p class="text-black text-opacity-75 fs-6">Lunes a Viernes de 8 a 17hs</p>
+        </div>
+        <div class="col-sm m-1">
+          <h3 class="text-black text-opacity-75 fs-6">Telefono</h3>
+          <p class="text-black text-opacity-75 fs-6">(011)2520-5451</p>
+        </div>
+        <div class="col-sm m-1">
+          <h3 class="text-black text-opacity-75 fs-6">Seguinos en las redes</h3>
+          <img src="imagenes/instagram.png" style="width: 2rem;" alt="Logo de Instagram">
+          <img src="imagenes/youtube.png" style="width: 2rem;" alt="Logo de Youtube">
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

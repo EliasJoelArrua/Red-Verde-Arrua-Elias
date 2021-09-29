@@ -1,35 +1,8 @@
 /*QUIENES SOMOS*/
-
-.container{
-    .titulo-quienessomos{
-        text-align: center;
-        color: rgb(158, 231, 84);
-        font-family:$IBM;
-        font-size: 1rem+4;
-        margin: 1rem;
-    }
-    .texto1{
-        font-family:$IBM;
-        text-align: center;
-        font-size: 3rem/2;
-        line-height: 3rem-1.4;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
-    .texto1__a{
-        text-align: center;
-        font-family:$IBM;
-        font-size: 3rem/2;
-        line-height: 3rem-1.4;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
-    .texto1__b{
-        text-align: center;
-        font-family: $IBM;
-        font-size: 3rem/2;
-        line-height: 3rem-1.4;
-        padding-top: 1rem;
-        margin: 1rem;
-    }
+.titulo-quienessomos{
+    color: rgb(158, 231, 84);
+    text-align: center;
+    font-family:$IBM;
+    font-size: 1rem+4;
+    margin: 1rem;
 }

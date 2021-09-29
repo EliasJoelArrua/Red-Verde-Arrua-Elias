@@ -61,23 +61,4 @@
         font-family: $IBM;
         font-size: 1.6rem;
     }
-    .box-Boton{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        .boton-Link{
-            width: 15rem;
-            margin: 2rem;
-            text-align: center;
-            background-color: $amarillo;
-            text-decoration: none;
-            color: white;
-            text-shadow: $borde-negro;
-            transition: color 1s background-color 1s ;
-            .boton-Link:hover{
-                color: $blanco;
-                background-color: $amarillo;
-            }
-        }
-    }
 }

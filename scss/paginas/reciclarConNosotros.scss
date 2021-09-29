@@ -1,5 +1,4 @@
 /*RECICLAR CON NOSOTROS*/
-
 .titulo-reciclarconnosotros{
     color: $blanco;
     width: auto;
@@ -15,11 +14,4 @@
 .section-reciclar{
     display: flex;
     flex-direction: column;
-    .section-reciclar__text{
-        font-size: 1.2rem;
-        font-family: $IBM;
-    }
-}
-.contacto{
-    margin: 1.6rem;
 }
